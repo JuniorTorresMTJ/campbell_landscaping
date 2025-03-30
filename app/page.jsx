@@ -15,12 +15,21 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 <Head>
-  <title>Campbell Landscapes | Garden Design & Build in Dublin</title>
+<title>Campbell Landscapes | Garden Design & Build in Dublin</title>
   <meta
     name="description"
     content="Expert garden design and landscaping services in Dublin. Campbell Landscapes creates vibrant outdoor spaces with precision and care."
   />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <meta
+    name="keywords"
+    content="garden design, landscaping Dublin, outdoor kitchens, paving, planting, Campbell Landscapes, Irish garden design"
+  />
+  <link rel="canonical" href="https://www.campbelllandscaping.com" />
   <link rel="icon" href="/favicon.ico" />
+
+  {/* Open Graph */}
   <meta property="og:title" content="Campbell Landscapes" />
   <meta
     property="og:description"
@@ -28,7 +37,14 @@ import Footer from "@/components/Footer";
   />
   <meta property="og:image" content="/og-image.jpg" />
   <meta property="og:url" content="https://www.campbelllandscaping.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IE" />
+
+  {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Campbell Landscapes | Garden Design & Build in Dublin" />
+  <meta name="twitter:description" content="Discover beautiful, functional gardens built with expert craftsmanship." />
+  <meta name="twitter:image" content="/og-image.jpg" />
 </Head>
 
 const Home = () => {
