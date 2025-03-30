@@ -55,6 +55,20 @@ const workData = [
   },
 ];
 
+const containerVariants = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.2, // Atraso de 0.2 segundos entre cada item
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0 },
+};
+
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
@@ -78,18 +92,19 @@ const Work = () => {
         </motion.div>
       </div>
       <motion.div
-        variants={fadeIn("right", 0.3)}
+        variants={containerVariants}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
-        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4"
+        className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 gap-0"
       >
         {workData.map((item, index) => {
           return (
-            <div
-              key={index}
-              className="w-full h-[492px] flex-1 relative overflow-hidden group flex justify-center"
-            >
+            <motion.div
+            key={index}
+            variants={itemVariants}
+            className="w-full h-[492px] flex-1 relative overflow-hidden group flex justify-center"
+          >
               <Image
                 src={item.img}
                 fill
@@ -108,7 +123,7 @@ const Work = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </motion.div>
