@@ -27,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${barlow.variable}${cinzel.variable} antialiased`}>
+      <body className={`${cinzel.variable} antialiased`}>
         {children}
       </body>
     </html>
