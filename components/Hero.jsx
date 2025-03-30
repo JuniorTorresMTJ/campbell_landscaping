@@ -6,7 +6,7 @@ import { fadeIn } from "@/variants";
 const Hero = () => {
   return (
     <section
-      className="h-[70vh] bg-hero bg-no-repeat bg-cover bg-center relative"
+      className="h-screen bg-hero bg-no-repeat bg-cover bg-center relative"
       id="home"
     >
       {/* overlay */}
