@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className={`${cinzel.variable} antialiased`}>{children}</body>
     </html>
   );
 }
