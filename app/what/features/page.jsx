@@ -3,14 +3,14 @@
 import Image from "next/image";
 
 const images = [
-  "/assets/img/services/Features/features (1).jpg",
-  "/assets/img/services/Features/features (1).WEBP",
-  "/assets/img/services/Features/features (2).jpg",
-  "/assets/img/services/Features/features (3).jpg",
-  "/assets/img/services/Features/features (4).jpg",
-  "/assets/img/services/Features/features (5).jpg",
-  "/assets/img/services/Features/features (6).jpg",
-  "/assets/img/services/Features/features (7).jpg",
+  "/assets/img/services/features/features-1.jpg",
+  "/assets/img/services/features/features-1.webp",
+  "/assets/img/services/features/features-2.jpg",
+  "/assets/img/services/features/features-3.jpg",
+  "/assets/img/services/features/features-4.jpg",
+  "/assets/img/services/features/features-5.jpg",
+  "/assets/img/services/features/features-6.jpg",
+  "/assets/img/services/features/features-7.jpg",
 ];
 
 export default function FeaturesPage() {

@@ -6,19 +6,19 @@ import Link from "next/link";
 const serviceItems = [
   {
     title: "Hardscape",
-    src: "/assets/img/services/hardscape (1).jpg",
+    src: "/assets/img/services/hardscape/hardscape-1.jpg",
     alt: "Hardscape",
     href: "/what/hardscape",
   },
   {
     title: "Softscape",
-    src: "/assets/img/services/softscape (2).jpg",
+    src: "/assets/img/services/softscape/softscape-2.jpg",
     alt: "Softscape",
     href: "/what/softscape",
   },
   {
     title: "Features",
-    src: "/assets/img/services/features (1).jpg",
+    src: "/assets/img/services/features/features-1.jpg",
     alt: "Features",
     href: "/what/features",
   },

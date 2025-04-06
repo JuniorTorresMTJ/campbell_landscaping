@@ -3,16 +3,16 @@
 import Image from "next/image";
 
 const images = [
-  "/assets/img/services/Hardscape/hardscape (6).jpg",
-  "/assets/img/services/Hardscape/hardscape (1).jpg",
-  "/assets/img/services/Hardscape/hardscape (1).WEBP",
-  "/assets/img/services/Hardscape/hardscape (2).jpg",
-  "/assets/img/services/Hardscape/hardscape (2).WEBP",
-  "/assets/img/services/Hardscape/hardscape (3).jpg",
-  "/assets/img/services/Hardscape/hardscape (3).WEBP",
-  "/assets/img/services/Hardscape/hardscape (4).WEBP",
-  "/assets/img/services/Hardscape/hardscape (5).WEBP",
-];
+  "/assets/img/services/hardscape/hardscape-6.jpg",
+  "/assets/img/services/hardscape/hardscape-1.jpg",
+  "/assets/img/services/hardscape/hardscape-1.webp",
+  "/assets/img/services/hardscape/hardscape-2.jpg",
+  "/assets/img/services/hardscape/hardscape-2.webp",
+  "/assets/img/services/hardscape/hardscape-3.jpg",
+  "/assets/img/services/hardscape/hardscape-3.webp",
+  "/assets/img/services/hardscape/hardscape-4.webp",
+  "/assets/img/services/hardscape/hardscape-5.webp",
+]
 
 export default function HardscapePage() {
   return (
@@ -35,7 +35,7 @@ export default function HardscapePage() {
           <div key={index} className="w-full aspect-square relative">
             <Image
               src={src}
-              alt={`Feature ${index + 1}`}
+              alt={`Hardscape ${index + 1}`}
               fill
               className="object-cover"
             />

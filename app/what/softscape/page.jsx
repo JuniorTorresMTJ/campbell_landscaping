@@ -3,18 +3,18 @@
 import Image from "next/image";
 
 const images = [
-  "/assets/img/services/Softscape/softscape (1).WEBP",
-  "/assets/img/services/Softscape/softscape (1).jpg",
-  "/assets/img/services/Softscape/softscape (2).WEBP",
-  "/assets/img/services/Softscape/softscape (2).jpg",
-  "/assets/img/services/Softscape/softscape (3).jpg",
-  "/assets/img/services/Softscape/softscape (4).jpg",
-  "/assets/img/services/Softscape/softscape (5).jpg",
-  "/assets/img/services/Softscape/softscape (6).jpg",
-  "/assets/img/services/Softscape/softscape (7).jpg",
-  "/assets/img/services/Softscape/softscape (8).jpg",
-  "/assets/img/services/Softscape/softscape (9).jpg",
-  "/assets/img/services/Softscape/softscape (10).jpg",
+  "/assets/img/services/softscape/softscape-1.webp",
+  "/assets/img/services/softscape/softscape-1.jpg",
+  "/assets/img/services/softscape/softscape-2.webp",
+  "/assets/img/services/softscape/softscape-2.jpg",
+  "/assets/img/services/softscape/softscape-3.jpg",
+  "/assets/img/services/softscape/softscape-4.jpg",
+  "/assets/img/services/softscape/softscape-5.jpg",
+  "/assets/img/services/softscape/softscape-6.jpg",
+  "/assets/img/services/softscape/softscape-7.jpg",
+  "/assets/img/services/softscape/softscape-8.jpg",
+  "/assets/img/services/softscape/softscape-9.jpg",
+  "/assets/img/services/softscape/softscape-10.jpg",
 ];
 
 export default function SoftscapePage() {
@@ -42,7 +42,7 @@ export default function SoftscapePage() {
           <div key={index} className="w-full aspect-square relative">
             <Image
               src={src}
-              alt={`Feature ${index + 1}`}
+              alt={`Softscape ${index + 1}`}
               fill
               className="object-cover"
             />
