@@ -46,7 +46,7 @@ const WhatWeDoPage = () => {
             key={index}
             className="group text-center block"
           >
-            <div className="md:w-[300px] w-[350px] h-[350px] mx-auto relative overflow-hidden">
+            <div className="md:w-[300px] lg:w-[350px] lg:h-[350px] mx-auto relative overflow-hidden">
               <Image
                 src={item.src}
                 alt={item.alt}
