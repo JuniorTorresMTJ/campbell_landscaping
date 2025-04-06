@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const serviceItems = [
   {
-    src: "/assets/img/services/hardscape (1).jpg",
+    src: "/assets/img/services/hardscape-1.jpg",
     alt: "Hardscape",
   },
   {
-    src: "/assets/img/services/softscape (2).jpg",
+    src: "/assets/img/services/softscape-2.jpg",
     alt: "Softscape",
   },
   {
-    src: "/assets/img/services/features (1).jpg",
+    src: "/assets/img/services/features-1.jpg",
     alt: "Features",
   },
 ];
